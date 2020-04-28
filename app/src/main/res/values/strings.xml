@@ -5,5 +5,9 @@
     <string name= "presentacion">""Medic Alarm"" somos una app donde te ayudaremos a cumplir tus recetas medicas recordandote tus horarios
     en los que debes tomar tus medicamentos. Recuerda que la salud es muy importante y que el cuidado de ellos es nuestra responsailidad</string>
     <string name="empecemos">Empecemos</string>
+    <string name="title_activity_registro2">registro2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>
