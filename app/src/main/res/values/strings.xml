@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">medicamentos</string>
+    <string name="crc">CRC</string>
 </resources>
