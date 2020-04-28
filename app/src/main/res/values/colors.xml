@@ -6,4 +6,6 @@
 
     <color name="colorPrimariLight">#CFFDEE</color>
     <color name="colorFondo">#B268FAD7</color>
+    <color name="colorblack" />
+    <color name="colorLightBlue" />
 </resources>
