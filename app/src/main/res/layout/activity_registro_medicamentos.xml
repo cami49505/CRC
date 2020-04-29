@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+
     <TextView
         android:id="@+id/tvHeader"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="66dp"
         android:background="@color/colorLightBlue"
         android:gravity="center"
         android:padding="10dp"
         android:text="@string/main_menu_header"
         android:textColor="@color/colorblack"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:text="Registro de Medicamentos" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/btAñadirMed1"
-            android:text="Añadir medicamento 1"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFBDF6F3"
+            android:text="Añadir medicamento 1" />
+
         <Button
             android:id="@+id/btAñadirMed2"
-            android:text="Añadir medicamento 2"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFBDF6F3"
+            android:text="Añadir medicamento 2" />
+
         <Button
             android:id="@+id/btAñadirMed3"
-            android:text="Añadir medicamento 3"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFBDF6F3"
+            android:text="Añadir medicamento 3" />
 
     </LinearLayout>
 
@@ -46,24 +57,30 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/btAñadirMed4"
-            android:text="Añadir medicamento 4"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFBDF6F3"
+            android:text="Añadir medicamento 4" />
+
         <Button
             android:id="@+id/btAñadirMed5"
-            android:text="Añadir medicamento 5"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFBDF6F3"
+            android:text="Añadir medicamento 5" />
+
         <Button
             android:id="@+id/btAñadirMed6"
-            android:text="Añadir medicamento 6"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFBDF6F3"
+            android:text="Añadir medicamento 6" />
     </LinearLayout>
 
     <LinearLayout
@@ -71,25 +88,56 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/btAñadirMed7"
-            android:text="Añadir medicamento 7"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFBDF6F3"
+            android:text="Añadir medicamento 7" />
+
         <Button
             android:id="@+id/btAñadirMed8"
-            android:text="Añadir medicamento 8"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFBDF6F3"
+            android:text="Añadir medicamento 8" />
+
         <Button
             android:id="@+id/btAñadirMed9"
-            android:text="Añadir medicamento 9"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#BDF6F3"
+            android:text="Añadir medicamento 9" />
     </LinearLayout>
+    <!-- <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"-->
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:contextClickable="true"
+        android:layout_height="match_parent"/>-->
+    <LinearLayout
 
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_weight=""
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btSalir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:backgroundTint="#03A9F4"
+            android:text="salir" />
+
+    </LinearLayout>
 </LinearLayout>
