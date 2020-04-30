@@ -1,4 +1,5 @@
 <resources>
+    <string name="crc0">CRC0</string>
     <string name="app_name">medicamentos</string>
     <string name="main_menu_header" />
     <string name="usuario">Bienvenido!</string>
@@ -10,5 +11,8 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="crc">CRC</string>
+    <string name="crc10">CRC10</string>
+    <string name="crc11">CRC11</string>
+    <string name="crc12">CRC12</string>
 </resources>
 
