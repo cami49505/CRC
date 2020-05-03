@@ -7,20 +7,24 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorFondo"/>
+        android:background="@color/colorPrimariLight"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
             android:gravity="center"
-            android:padding="15dp"
+            android:padding="5dp"
             android:text="CRC"
-            android:textSize="15sp"/>
+            android:textSize="40sp"
+            android:textColor="@color/colorblack"/>
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,8 +35,10 @@
             android:layout_weight="1">
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="377dp"
                 android:layout_height="200dp"
+                android:layout_margin="15dp"
+                android:gravity="center_vertical"
                 android:src="@drawable/logo_proyecto" />
 
             <LinearLayout
@@ -47,12 +53,14 @@
                     android:layout_marginStart="24dp"
                     android:src="@drawable/usuario"
                     android:tint="@color/colorAccent"/>
+
                 <EditText
+                    android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:hint="Nombre de Usuario"
-                    android:inputType="text"/>
+                    android:inputType="text" />
 
             </LinearLayout>
 
@@ -100,6 +108,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/loginButton"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@color/colorPrimaryDark"
@@ -110,11 +119,11 @@
 
             <ProgressBar
 
+                android:id="@+id/loadingProgressBar"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:indeterminate="true"
-                android:visibility="invisible"
-                tools:visibility="visible"/>
+                android:visibility="invisible" />
 
         </LinearLayout>
 

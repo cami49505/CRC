@@ -3,7 +3,9 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <TextView
+        android:id="@+id/TextWelcome"
         android:layout_width="match_parent"
         android:layout_height="143dp"
         android:background="@color/colorAccent"
@@ -11,7 +13,6 @@
         android:textColor="@color/colorblack"
         android:textSize="30sp"
         android:gravity="center_horizontal"
-        android:alpha="0.5"
         android:padding="50dp"
         />
 
@@ -38,9 +39,13 @@
         />
 
     <Button
+
         android:layout_width="296dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/colorAccent"
-        android:text="@string/empecemos" />
+        android:textColor="@color/colorPrimariLight"
+        android:textStyle="bold"
+        android:text="@string/empecemos"
+       />
 </LinearLayout>
