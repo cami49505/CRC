@@ -17,6 +17,7 @@
         />
 
     <ImageView
+
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
@@ -39,7 +40,7 @@
         />
 
     <Button
-
+        android:id="@+id/StartI"
         android:layout_width="296dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
