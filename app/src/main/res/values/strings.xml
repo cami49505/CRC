@@ -10,5 +10,6 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="crc">CRC</string>
+    <string name = "med">Medicamentos</string>
     <string name="medicamentos">Medicamentos</string>
 </resources>

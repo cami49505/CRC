@@ -12,6 +12,10 @@
         <activity android:name=".activity_pantalla_de_medicamentos"></activity>
         <activity android:name=".activity_cuarta_pantalla" />
         <activity android:name=".RegistroMedicamentosActivity" />
+
+
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
