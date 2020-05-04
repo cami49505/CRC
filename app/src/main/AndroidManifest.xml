@@ -24,7 +24,7 @@
 
 
         <activity android:name=".RegistroMedicamentosActivity"/>
-        <activity android:name=".activity_cuarta_pantalla"/>
+
         <activity android:name=".activitySegundaPantalla" />
 
 
