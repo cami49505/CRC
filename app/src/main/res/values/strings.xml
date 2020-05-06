@@ -12,4 +12,7 @@
     <string name="crc">CRC</string>
     <string name = "med">Medicamentos</string>
     <string name="medicamentos">Medicamentos</string>
+    <string name="nameMedication">Nombre del Medicamento</string>
+    <string name="quantity">Cantidad</string>
+    <string name="schedule">Horario</string>
 </resources>
