@@ -15,7 +15,7 @@
         android:padding="10dp"
         android:text="@string/main_menu_header"
         android:textColor="@color/colorblack"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         tools:text="Registro de Medicamentos" />
 
