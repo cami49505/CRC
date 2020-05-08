@@ -10,9 +10,10 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="crc">CRC</string>
-    <string name = "med">Medicamentos</string>
+    <string name="med">Medicamentos</string>
     <string name="medicamentos">Medicamentos</string>
     <string name="nameMedication">Nombre del Medicamento</string>
     <string name="quantity">Cantidad</string>
     <string name="schedule">Horario</string>
+    <string name="ringtones">Tonos</string>
 </resources>

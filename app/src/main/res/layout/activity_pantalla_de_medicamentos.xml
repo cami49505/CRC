@@ -32,18 +32,20 @@
                     android:text="@string/medicamentos"
                     android:textColor="@color/colorblacktext"
                     android:textSize="20sp"
-                    android:textStyle="bold"
+                    android:textStyle="bold|italic"
                     />
                 <ImageButton
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/icon_back_other"
+                    android:src="@drawable/boton_atras"
+                    android:background="@color/colorFondo"
                     android:scaleType="centerCrop" />
                 <ImageView
-                    android:layout_width="95dp"
+                    android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_gravity="top|right"
-                    android:src="@drawable/looking"/>
+                    android:layout_margin="15dp"
+                    android:src="@drawable/pill_image"/>
 
             </FrameLayout>
 
