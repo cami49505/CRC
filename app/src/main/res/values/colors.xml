@@ -3,8 +3,7 @@
     <color name="colorPrimary">#448AFF</color>
     <color name="colorPrimaryDark">#448AFF</color>
     <color name="colorAccent">#609BFB</color>
-    <color name="colorLightBlue">#1E8BCF</color>
-    <color name="colorblack">#131212</color>
+
     <color name="colorblacktext">#000000</color>
 
     <color name="colorPrimariLight">#CFFDEE</color>
@@ -13,4 +12,7 @@
     <color name="colorGray">#C5EBFB</color>
     <color name="color_darkGray">#A1BCCA</color>
     <color name="color_celesteClaro">#F590D7F8</color>
+    <color name="colorblack" />
+    <color name="colorLightBlue" />
+    <color name="color_azulclaro">#367FF4</color>
 </resources>

@@ -113,17 +113,8 @@
             android:backgroundTint="#BDF6F3"
             android:text="Añadir medicamento 9" />
     </LinearLayout>
-    <!-- <ToggleButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"-->
-   <!-- <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="match_parent"
-        android:contextClickable="true"
-        android:layout_height="match_parent"/>-->
+
     <LinearLayout
 
         android:layout_width="match_parent"
