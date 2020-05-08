@@ -8,13 +8,13 @@
         android:id="@+id/TextWelcome"
         android:layout_width="match_parent"
         android:layout_height="143dp"
+        android:alpha="0.5"
         android:background="@color/colorAccent"
-        android:text="@string/usuario"
-        android:textColor="@color/colorblack"
-        android:textSize="30sp"
         android:gravity="center_horizontal"
         android:padding="50dp"
-        />
+        android:text="Bienvenido"
+        android:textColor="@color/colorblack"
+        android:textSize="30sp" />
 
     <ImageView
 
