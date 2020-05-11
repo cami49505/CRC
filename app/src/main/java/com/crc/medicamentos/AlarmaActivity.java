@@ -50,6 +50,7 @@ public class AlarmaActivity extends AppCompatActivity {
             }
         });
 
+
         cbMartes.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {

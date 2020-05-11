@@ -1,19 +1,24 @@
 package com.crc.medicamentos;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     Button loginButton;
     ProgressBar progressBar;
     EditText EditTextusername;
+    CheckBox cbRememberMe;
+
+
+    UserSharedPreferencesManager userSharedPreferencesManager;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +28,24 @@ public class MainActivity extends AppCompatActivity {
             loginButton = findViewById(R.id.loginButton);
             progressBar = findViewById(R.id.loadingProgressBar);
             EditTextusername  = findViewById(R.id.username);
+            cbRememberMe = findViewById(R.id.cbRememberMe);
+
+            //ros
+            userSharedPreferencesManager = new UserSharedPreferencesManager(this);
+
+            if (userSharedPreferencesManager.getUser().getUsername() != null){
+                // string.valueOf
+                Intent intent = new Intent(MainActivity.this, RegistroMedicamentosActivity.class);
+                intent.putExtra("user", userSharedPreferencesManager.getUser());
+                startActivity(intent);
+            }
+
+
 
             loginButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     progressBar.setVisibility(View.VISIBLE);
-
-
 
                     // abrir otro activity
 
@@ -39,6 +55,16 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra("user",user);
 
                     startActivity(intent);
+
+                    //ros, cuando el check este activo
+                    if (cbRememberMe.isChecked()){
+                        userSharedPreferencesManager.saveUser(user);
+                    }else{
+                        userSharedPreferencesManager.deleteUser();
+                    }
+
+
+
                 }
             });
 

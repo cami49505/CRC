@@ -110,14 +110,14 @@
                     android:layout_gravity="left"
                     android:text="CANCELAR"
                     android:layout_margin="25dp"
-                    android:background="@color/colorLightBlue"/>
+                    android:background="@color/colorPrimary"/>
                 <Button
                     android:layout_width="150dp"
                     android:layout_height="50dp"
                     android:layout_gravity="right"
                     android:text="ok"
                     android:layout_margin="25dp"
-                    android:background="@color/colorLightBlue"/>
+                    android:background="@color/colorPrimary"/>
             </FrameLayout>
 
         </LinearLayout>
