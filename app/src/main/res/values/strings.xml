@@ -24,4 +24,5 @@
     <string name="nameMedication">Nombre del Medicamento</string>
     <string name="quantity">Cantidad</string>
     <string name="schedule">Horario</string>
+    <string name="ringtones">Tonos</string>
 </resources>

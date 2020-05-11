@@ -15,10 +15,6 @@ public class AlarmaActivity extends AppCompatActivity {
     Button tonos;
 
 
-
-
-
-
     CheckBox cbLunes;
     CheckBox cbMartes;
     CheckBox cbMiercoles;
@@ -34,31 +30,30 @@ public class AlarmaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_alarma);
 
 
+        cbLunes = findViewById(R.id.cbLunes);
+        cbMartes = findViewById(R.id.cbMartes);
+        cbMiercoles = findViewById(R.id.cbMiercoles);
+        cbJueves = findViewById(R.id.cbJueves);
+        cbViernes = findViewById(R.id.cbViernes);
+        cbSabado = findViewById(R.id.cbSabado);
+        cbDomingo = findViewById(R.id.cbDomingo);
 
-        cbLunes=findViewById(R.id.cbLunes);
-        cbMartes=findViewById(R.id.cbMartes);
-        cbMiercoles=findViewById(R.id.cbMiercoles);
-        cbJueves=findViewById(R.id.cbJueves);
-        cbViernes=findViewById(R.id.cbViernes);
-        cbSabado=findViewById(R.id.cbSabado);
-        cbDomingo=findViewById(R.id.cbDomingo);
+        cbLunes.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    Toast.makeText(AlarmaActivity.this, "Alarma activada los lunes", Toast.LENGTH_SHORT).show();
 
-cbLunes.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        if(isChecked){
-            Toast.makeText(AlarmaActivity.this, "Alarma activada los lunes", Toast.LENGTH_SHORT).show();
-
-            } else {
-            Toast.makeText(AlarmaActivity.this, "Alarma desactivada los lunes", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(AlarmaActivity.this, "Alarma desactivada los lunes", Toast.LENGTH_SHORT).show();
                 }
-        }
-    });
+            }
+        });
 
         cbMartes.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(isChecked){
+                if (isChecked) {
                     Toast.makeText(AlarmaActivity.this, "Alarma activada los martes", Toast.LENGTH_SHORT).show();
 
                 } else {
