@@ -1,4 +1,6 @@
 package com.crc.medicamentos;
 
-class AlarmaActivity {
+import android.app.Activity;
+
+public class AlarmaActivity extends Activity {
 }

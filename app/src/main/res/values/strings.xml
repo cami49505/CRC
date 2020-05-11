@@ -23,6 +23,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="nameMedication">Nombre del Medicamento</string>
     <string name="quantity">Cantidad</string>
-    <string name="schedule">Horario</string>
+    <string name="schedule">Horarario</string>
     <string name="ringtones">Tonos</string>
 </resources>

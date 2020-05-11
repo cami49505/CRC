@@ -15,6 +15,7 @@ public class activitySegundaPantalla extends AppCompatActivity {
     Button Empecemos;
 
 
+
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +37,6 @@ public class activitySegundaPantalla extends AppCompatActivity {
 
 
 
-
-
         Empecemos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,5 +44,7 @@ public class activitySegundaPantalla extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }
