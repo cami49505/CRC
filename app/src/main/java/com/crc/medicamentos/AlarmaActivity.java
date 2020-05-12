@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class AlarmaActivity extends AppCompatActivity {
 
-    Button tonos;
+    Button button;
 
 
     CheckBox cbLunes;
@@ -29,6 +29,13 @@ public class AlarmaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarma);
 
+        button = findViewById(R.id.btTonos);
+
+
+
+
+
+
 
         cbLunes = findViewById(R.id.cbLunes);
         cbMartes = findViewById(R.id.cbMartes);
@@ -37,6 +44,31 @@ public class AlarmaActivity extends AppCompatActivity {
         cbViernes = findViewById(R.id.cbViernes);
         cbSabado = findViewById(R.id.cbSabado);
         cbDomingo = findViewById(R.id.cbDomingo);
+
+
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AlarmaActivity.this, activity_tonos.class);
+                startActivity(intent);
+            }
+
+       });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         cbLunes.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override

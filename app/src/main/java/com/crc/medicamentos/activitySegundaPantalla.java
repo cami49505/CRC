@@ -28,11 +28,11 @@ public class activitySegundaPantalla extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        if (intent.hasExtra("user")) {
+            if (intent.hasExtra("user")) {
             UsuarioM user  = (UsuarioM) intent.getSerializableExtra("user");
             if (user!= null) {
-                Bienvenida.setText("Bienvenido " + user.getUsername() + "!");
-            }
+              Bienvenida.setText("Bienvenido " + user.getUsername() + "!");
+           }
         }
 
 
