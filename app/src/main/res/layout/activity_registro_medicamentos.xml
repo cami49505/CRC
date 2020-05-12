@@ -17,7 +17,7 @@
         android:textColor="@color/colorblacktext"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:text="Registro de Medicamentos" />
+        tools:text="Medicamentos" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 1"
+            android:text="Añadir medicamento"
 
 
             />
