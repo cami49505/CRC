@@ -10,14 +10,14 @@
         android:id="@+id/tvHeader"
         android:layout_width="match_parent"
         android:layout_height="66dp"
-        android:background="@color/colorLightBlue"
+        android:background="@color/color_azulclaro"
         android:gravity="center"
         android:padding="10dp"
-        android:text="@string/main_menu_header"
-        android:textColor="@color/colorblack"
-        android:textSize="20sp"
+        android:text="Registro de Medicamentos"
+        android:textColor="@color/colorblacktext"
+        android:textSize="30sp"
         android:textStyle="bold"
-        tools:text="Registro de Medicamentos" />
+        tools:text="Medicamentos" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 1" />
+            android:text="Añadir medicamento"
+
+
+            />
+
+
 
         <Button
             android:id="@+id/btAñadirMed2"
@@ -39,79 +44,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 2" />
-
-        <Button
-            android:id="@+id/btAñadirMed3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 3" />
-
-    </LinearLayout>
+            android:text="Registro de medicamentos" />
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btAñadirMed4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 4" />
-
-        <Button
-            android:id="@+id/btAñadirMed5"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 5" />
-
-        <Button
-            android:id="@+id/btAñadirMed6"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 6" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btAñadirMed7"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 7" />
-
-        <Button
-            android:id="@+id/btAñadirMed8"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento 8" />
-
-        <Button
-            android:id="@+id/btAñadirMed9"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#BDF6F3"
-            android:text="Añadir medicamento 9" />
     </LinearLayout>
 
 
