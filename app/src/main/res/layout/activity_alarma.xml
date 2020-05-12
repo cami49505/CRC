@@ -66,6 +66,15 @@
 
                         android:columnCount="1"
                         >
+                        <CheckBox
+                            android:id="@+id/cbDiario"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/diario"
+
+                            android:textColor="@color/colorblacktext">
+
+                        </CheckBox>
 
                         <CheckBox
                             android:id="@+id/cbLunes"
@@ -75,6 +84,7 @@
                             android:text="Lunes">
 
                         </CheckBox>
+
                         <!--                android:layout_columnSpan="1"-->
 
                         <CheckBox
