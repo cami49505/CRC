@@ -26,9 +26,9 @@
         <activity android:name=".RegistroMedicamentosActivity"/>
 
         <activity android:name=".activitySegundaPantalla" />
-
-
         <activity android:name=".activity_pantalla_de_medicamentos" />
+      
+
 
 
 

@@ -13,30 +13,25 @@ public class RegistroMedicamentosActivity extends AppCompatActivity {
 
 
         Button salir;
-        Button añadirmedicamentos;
+        Button añadirM;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_registro_medicamentos);
 
-        añadirmedicamentos = findViewById(R.id.btAñadirMed1);
 
-        añadirmedicamentos.setOnClickListener(new View.OnClickListener() {
+        añadirM= findViewById(R.id.btAñadirMed1);
+        salir = findViewById(R.id.btSalir);
+
+
+        añadirM.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RegistroMedicamentosActivity.this, activity_pantalla_de_medicamentos.class);
+                Intent intent = new Intent(RegistroMedicamentosActivity.this,activity_pantalla_de_medicamentos.class);
                 startActivity(intent);
             }
         });
-
-
-
-
-
-
-        setContentView(R.layout.activity_registro_medicamentos);
-        salir = findViewById(R.id.btSalir);
-
 
 
         //salir.setOnClickListener(new View.OnClickListener() {
@@ -57,6 +52,8 @@ public class RegistroMedicamentosActivity extends AppCompatActivity {
                finish();
             }
         });
+
+
 
     }
 
