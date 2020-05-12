@@ -21,14 +21,14 @@ public class RegistroMedicamentosActivity extends AppCompatActivity {
 
 
 
-        //salir.setOnClickListener(new View.OnClickListener() {
-          //  @Override
-            //public void onClick(View v) {
-              //  Intent intent= new Intent(RegistroMedicamentosActivity.this,MainActivity.class);
-                //startActivity(intent);
+        salir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(RegistroMedicamentosActivity.this,MainActivity.class);
+                startActivity(intent);
 
-            //}
-        //});
+            }
+        });
 
         // ros
         salir.setOnClickListener(new View.OnClickListener() {
