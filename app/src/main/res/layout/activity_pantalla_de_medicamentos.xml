@@ -99,7 +99,8 @@
                     android:layout_height="30dp"
                     android:background="@color/colorPrimariLight"
                     android:inputType="text"
-                    android:imeOptions="actionSearch"/>
+                    android:imeOptions="actionSearch"
+                    android:id="@+id/nameMed"/>
 
             </LinearLayout>
 
@@ -140,7 +141,8 @@
                     android:layout_height="30dp"
                     android:background="@color/colorPrimariLight"
                     android:inputType="number"
-                    android:imeOptions="actionSearch"/>
+                    android:imeOptions="actionSearch"
+                    android:id="@+id/cantidadMed"/>
 
             </LinearLayout>
 
@@ -181,7 +183,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="23dp"
                     android:background="@color/colorPrimariLight"
-                    android:inputType="text" />
+                    android:inputType="text"/>
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="23dp"
@@ -207,14 +209,15 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/alarmbutton"
+                    android:id="@+id/registerbutton"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
-                    android:text="Alarma"
-                    android:textColor="@color/colorGray"
                     android:background="@color/colorLightBlue"
+                    android:onClick="SentInfo"
+                    android:text="Registrar"
+                    android:textColor="@color/colorGray"
                     android:textSize="20sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

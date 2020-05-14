@@ -19,36 +19,20 @@
         android:textStyle="bold"
         tools:text="Medicamentos" />
 
-    <LinearLayout
+
+    <Button
+        android:id="@+id/addMed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+        android:text="añadir medicamento"
+        android:onClick="onClick"/>
 
-        <Button
-            android:id="@+id/btAñadirMed1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#FFBDF6F3"
-            android:text="Añadir medicamento"
-
-
-            />
-
-
-
-        <Button
-            android:id="@+id/btAñadirMed2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#FFBDF6F3"
-            android:text="Registro de medicamentos" />
-
-
-    </LinearLayout>
-
+    <Button
+        android:id="@+id/registerMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de medicamentos"
+        android:onClick="onClick" />
 
     <LinearLayout
 
